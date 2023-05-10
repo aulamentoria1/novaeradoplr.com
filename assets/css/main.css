@@ -684,7 +684,6 @@ button:not(.smartplayer-icon) :hover {
 }
 
 /* Upsell */
-
 .upsell-linear {
   background: linear-gradient(to right, #0a0f1e, #0b0f31);
 }
