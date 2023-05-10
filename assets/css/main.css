@@ -709,6 +709,24 @@ button:not(.smartplayer-icon) :hover {
   height: 0px;
 }
 
+.venda .box-blob {
+  height: 250px;
+}
+
+.venda .box-blob-last {
+  height: 650px;
+}
+
+@media (max-width: 790px) {
+  .venda .box-blob {
+    height: 420px;
+  }
+
+  .venda .box-blob-last {
+    height: 1100px;
+  }
+}
+
 .box-blob::after {
   content: '';
   background-color: #fff;
@@ -767,4 +785,34 @@ button:not(.smartplayer-icon) :hover {
   .container-blob h4 {
     font-size: 18px;
   }
+}
+
+.detail-price {
+  width: 50%;
+  height: 40px;
+  background-color: #131440;
+  margin: 0 auto;
+  position: relative;
+}
+
+.detail-price::before {
+  content: '';
+  background-color: #131440;
+  width: 40px;
+  height: 40px;
+  right: calc(100% - 20px);
+  top: 0;
+  transform: skewX(45deg);
+  position: absolute;
+}
+
+.detail-price::after {
+  content: '';
+  background-color: #131440;
+  width: 40px;
+  height: 40px;
+  left: calc(100% - 20px);
+  top: 0;
+  transform: skewX(-45deg);
+  position: absolute;
 }
