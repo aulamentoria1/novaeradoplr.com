@@ -719,11 +719,15 @@ button:not(.smartplayer-icon) :hover {
 
 @media (max-width: 790px) {
   .venda .box-blob {
-    height: 420px;
+    height: 320px;
+  }
+
+  .venda .box-blob.box-blob-lg {
+    height: 520px;
   }
 
   .venda .box-blob-last {
-    height: 1100px;
+    height: 1200px;
   }
 }
 
