@@ -723,7 +723,7 @@ button:not(.smartplayer-icon) :hover {
   }
 
   .venda .box-blob.box-blob-md {
-    height: 350px;
+    height: 370px;
   }
 
   .venda .box-blob.box-blob-lg {
@@ -731,7 +731,7 @@ button:not(.smartplayer-icon) :hover {
   }
 
   .venda .box-blob-last {
-    height: 1200px;
+    height: 1250px;
   }
 }
 
